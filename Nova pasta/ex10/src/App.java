@@ -9,7 +9,7 @@ public class App {
 
         List<Product> list = new ArrayList<>();
 
-        String path = "C:\\Users\\marco\\Downloads\\texto.txt";
+        String path = "C:\\Users\\marco\\Downloads\\texto2.txt";
 
         try (BufferedReader br = new BufferedReader(new FileReader(path))) {
 
