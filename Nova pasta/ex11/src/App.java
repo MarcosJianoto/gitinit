@@ -19,7 +19,22 @@ public class App {
         System.out.println("verificar matriz: ");
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
-                System.out.print(vect[i][j]);
+                System.out.print(vect[i][j] + " ");
+            }
+            System.out.println();
+        }
+
+        System.out.println("Transposta");
+        int[][] transposta = new int[vect[0].length][vect.length];
+        for (int i = 0; i < transposta.length; i++) {
+            for (int j = 0; j < transposta[0].length; j++) {
+                transposta[i][j] = vect[j][i];
+            }
+        }
+
+        for (int i = 0; i < transposta.length; i++) {
+            for (int j = 0; j < transposta[0].length; j++) {
+                System.out.print(transposta[i][j] + " ");
             }
             System.out.println();
         }
