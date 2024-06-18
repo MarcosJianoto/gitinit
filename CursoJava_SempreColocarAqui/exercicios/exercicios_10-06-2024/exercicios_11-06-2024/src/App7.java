@@ -15,5 +15,9 @@ public class App7 {
 
         sb.replace(0, 10, "Larissa");
         System.out.println(sb.toString());
+
+        sb.reverse();
+        System.out.println(sb.toString());
+
     }
 }
