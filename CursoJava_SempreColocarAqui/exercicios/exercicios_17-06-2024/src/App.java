@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
 
 import entities.Contato;
 import entities.OperacoesContato;
